@@ -1,0 +1,182 @@
+    :root {
+    --color-nav: #000000;
+    --color-about: #037F8C;
+    --color-active: #ffffff;
+    --color-hover: #F5C53D;
+}
+
+body {
+    margin: 0rem;
+    background: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: var(--color-nav);
+    height: auto;
+}
+.logo{
+    color: white;
+    font-size: 1rem;
+    line-height: 0%;
+    padding: 0rem 1rem;
+}
+nav {
+    display: flex;
+    z-index: 1;
+    line-height: 0%;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    list-style: none;
+    padding: 0rem 2rem;
+
+}
+nav a {
+    color: var(--color-active);
+    outline: none;
+    text-decoration: none;
+}  
+  
+nav a:hover{
+    color: var(--color-hover);
+}    
+
+nav h1{
+    color: var(--color-active);
+    font-size: 2rem;
+}
+.fondoImg{
+    position: absolute;
+    width: 100%;
+    height: 39rem;
+	object-fit: cover;   
+}
+.fondo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 39rem;
+    background: linear-gradient(90deg, #000000 -2.35%, #392C17 100%);
+    mix-blend-mode: multiply;
+}
+.text{
+    padding-left: 3rem;
+}
+.text h1{
+    font-weight: 700;
+    font-size: 6rem;
+    color: var(--color-active);
+    line-height: 0rem;
+
+}
+.text h2{
+    margin: 0rem;
+    font-size: 1.8rem;
+    color: var(--color-hover);
+    line-height: 0rem;
+}
+.perfil{
+    display: flex;
+}
+.imgPerfil{
+    padding-left: 40%;
+}
+.about{
+    background: var(--color-nav);
+    width: 50%;
+}
+
+.about h1{
+    padding-top: 0.1rem;
+    padding-left: 2rem;
+    color: var(--color-hover);
+    font-size: 2rem;
+    line-height: 0%;
+}
+.about p{
+    color: var(--color-active);
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-justify: auto;
+}
+.parrafo{
+    padding: 2rem 3rem;
+    text-justify: center;
+}
+.datos{
+    padding-left: 3rem;
+}
+.titulo{
+    padding-top: 0.2rem;
+    color: var(--color-hover);
+    font-size: 2rem;
+    line-height: 0.0rem;
+}
+.empresa{
+    width: 150%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0rem;
+}
+.empresa h1{
+    font-size: 1.3rem;
+    line-height: 0rem;
+}
+.empresa h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 0.5rem;
+}
+.empresa h3{
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 0.3rem;
+}
+.empresa ul{
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-left: 1.5rem;
+}
+.empresa li{
+    margin: 0%;
+    line-height: 1.5rem;
+}
+.habilidades{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100% 50%;
+    padding: 0.2rem 0rem;
+    align-content: center;;
+
+}
+.habilidades h2{
+    display: grid;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.contPorcent1{
+    background: var(--color-active);
+    border-radius: 5%;
+    border-style: solid;
+    margin: 0%;
+}
+.porcentaje1{
+    background: var(--color-hover);
+    margin: 0% 0% 0% 15%;
+    
+}
+.porcentaje1 h2{
+    line-height: 0.1rem;
+}
